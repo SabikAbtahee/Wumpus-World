@@ -104,4 +104,15 @@ public class Agent {
 		}
 	}
 	
+	public int getCost() {
+		return cost;
+	}
+	public void increaseCost(int x) {
+		cost+=x;
+	}
+	
+	public void Shoot() {
+		
+	}
+	
 }
